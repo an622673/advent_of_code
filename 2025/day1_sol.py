@@ -6,7 +6,7 @@ Created on Tue Dec  2 11:21:05 2025
 """
 import numpy as np
 
-filepath= 'input_day1.txt'
+filepath= 'jason_input.txt'
 with open(filepath, 'r') as f:
     movements = f.readlines()
 

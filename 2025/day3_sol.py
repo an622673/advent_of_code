@@ -37,7 +37,7 @@ print("The answer to Part 1 is: "+str(cumulative_sum))
 
 #%% Part 2 (and part 1)
 num_batteries = 12
-tic = time.time()
+tic = time.time_ns()
 cumulative_sum = 0
 for bank in banks:
     # print("Bank "+bank)
@@ -55,8 +55,8 @@ for bank in banks:
     print("Joltage "+joltage)
     cumulative_sum += int(joltage)
 
-toc = time.time()
+toc = time.time_ns()
 
 print("The answer to Part 2 is: "+str(cumulative_sum))
-print("Calculation took "+str(toc-tic)+" s")
+print("Calculation took "+str((toc-tic)/1e6)+" ms")
 

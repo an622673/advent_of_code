@@ -9,4 +9,9 @@ I like to think of this as an elegant brute force - break each of the strings wh
 There only had to be one method of error handling, when IDs such as 222222 fit the invalid criteria multiple times and are therefore counted too much. Sets are useful.
 - Day 3: day3_sol.py - This is my favorite so far. The part 2 solution is comparatively fast and efficient, and should work for any number of batteries (so part 1 as well).
 However, I spent way more time than I needed realizing that .readlines() imports the newline character, which really messed up my exclusion of digits that are too close to the end.
+- Day 4: Solution is good and gave me a chance to use some code that is actually relevant to my degree, which was nice. Unfortunately I am not good at visualization, 
+because I think this would be a very illustrative one. Maybe I will revisit in the future.
+- Day 5: Destructive lists are so good, and yet so bad. I spent about 30 minutes debugging and seeing great logical outputs before adding the max() to stop overwriting the original stop index of the range.
+Had to write my own test case for the first time to see the behavior. 
+
 
