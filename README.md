@@ -13,5 +13,7 @@ However, I spent way more time than I needed realizing that .readlines() imports
 because I think this would be a very illustrative one. Maybe I will revisit in the future.
 - Day 5: Destructive lists are so good, and yet so bad. I spent about 30 minutes debugging and seeing great logical outputs before adding the max() to stop overwriting the original stop index of the range.
 Had to write my own test case for the first time to see the behavior. 
+- Day 6: Today I learned that casting a string to int() in Python will succeed regardless of if it is padded with spaces at the beginning or the end. 
+I ended up rewriting my part 1 solution to produce a unified output. Cephalopod math is ridiculous BTW.
 
 
